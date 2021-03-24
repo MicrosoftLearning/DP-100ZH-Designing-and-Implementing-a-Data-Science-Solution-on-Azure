@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '运行试验'
 ---
@@ -17,7 +17,7 @@ lab:
 > **提示**： Jupyter Notebook 是用于数据科学的常用开放源代码工具。如果不熟悉它，请参阅[本文档](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)。
 
 1. 在 [Azure 机器学习工作室](https://ml.azure.com)中，查看工作区的 **“计算”** 页面，并在 **“计算实例”** 选项卡上启动计算实例（如果尚未运行）。
-2. 当计算实例正在运行时，单击 **Jupyter** 链接以在新的浏览器选项卡中打开 Jupyter 主页。务必打开 *Jupyter* 而不是 **JupyterLab**。
+2. 当计算实例正在运行时，单击 **Jupyter** 链接以在新的浏览器选项卡中打开 Jupyter 主页。务必打开 *Jupyter* 而不是 *JupyterLab*。
 
 ## 验证是否安装了 Azure 机器学习 SDK
 
