@@ -23,7 +23,7 @@ Azure 机器学习与 Azure Application Insights 集成，让你能记录已部�
 
 本练习在笔记本中提供了用于为已部署预测服务配置 Application Insights 的代码。
 
-1. 在 Jupyter 主页中，浏览到克隆的笔记本存储库所在的 **Users/mslearn-dp100** 文件夹，然后打开 **“监视模型”** 笔记本。
+1. 在 Jupyter 主页中，浏览到克隆的笔记本存储库所在的 **/users/*your-user-name*/mslearn-dp100** 文件夹，然后打开 **“监视模型”** 笔记本。
 2. 然后阅读笔记本中的笔记，依次运行每个代码单元。
 3. 笔记本中的代码运行完毕后，在 **“文件”** 菜单上单击 **“关闭并停止”** 以关闭它及其 Python 内核。然后关闭所有 Jupyter 浏览器选项卡。
 
