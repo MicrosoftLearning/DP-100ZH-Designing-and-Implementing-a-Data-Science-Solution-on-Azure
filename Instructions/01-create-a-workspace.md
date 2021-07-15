@@ -1,6 +1,6 @@
 ﻿---
 lab:
-    title: '创建 Azure 机器学习工作区'
+    title: '创建并探索 Azure 机器学习工作区'
 ---
 
 # 创建并探索 Azure 机器学习工作区
