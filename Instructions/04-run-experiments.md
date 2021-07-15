@@ -4,7 +4,7 @@ lab:
 ---
 # 运行试验
 
-试验是数据科学家工作的核心。在 Azure 机器学习中，试验*用于*运行脚本或管道，通常会生成输出并记录指标。在本练习中，你将使用 Azure 机器学习 SDK 以试验的形式来运行 Python 代码。
+试验是数据科学家工作的核心。在 Azure 机器学习中，*试验*用于运行脚本或管道，通常会生成输出并记录指标。在本练习中，你将使用 Azure 机器学习 SDK 以试验的形式来运行 Python 代码。
 
 ## 准备工作
 
@@ -12,7 +12,7 @@ lab:
 
 ## 打开 Jupyter
 
-虽然可以使用 Azure 机器学习工作室中的 **“笔记本”** 页面来运行笔记本，但使用功能齐全的笔记本开发环境（如 Jupyter）通常效率更高。好在 Azure 机器学习计算实例包括 *Jupyter* 的安装。
+虽然可以使用 Azure 机器学习工作室中的 **“笔记本”** 页面来运行笔记本，但使用功能齐全的笔记本开发环境（如 *Jupyter*） 通常效率更高。好在 Azure 机器学习计算实例包括 Jupyter 的安装。
 
 > **提示**： Jupyter Notebook 是用于数据科学的常用开放源代码工具。如果不熟悉它，请参阅[本文档](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)。
 
@@ -24,7 +24,7 @@ lab:
 默认情况下，Azure 机器学习 SDK 已安装在计算实例上。请按照以下步骤来验证安装。
 
 1. 在 Jupyter Notebook 环境中，创建一个新的 **“终端”**。这将打开一个带有命令外壳的新选项卡。
-2. 输入以下命令来更新 Azure ML SDK：
+2. 输入以下命令来确认 Azure ML SDK 已安装：
 
     ```bash
     pip show azureml-sdk
@@ -40,7 +40,7 @@ lab:
 
 4. 关闭 **“终端”** 选项卡，然后返回到包含 Jupyter 主页的选项卡。
 
-> **更多信息**： 有关安装 Azure ML SDK 机器可选组件的更多详细信息，请参阅 [Azure ML SDK 文档](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py)。
+> **详细信息**： 有关安装 Azure ML SDK 机器可选组件的更多详细信息，请参阅 [Azure ML SDK 文档](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py)。
 
 ## 在笔记本中运行试验
 
@@ -53,3 +53,5 @@ Azure 机器学习中的试验需要从某种*控制*层（通常是脚本或程
 ## 清理
 
 如果你现在完成了 Azure 机器学习的工作，请在 Azure 机器学习工作室的 **“计算”** 页上的 **“计算实例”** 选项卡上，选择你的计算实例，然后单击 **“停止”** 以将其关闭。否则，让它继续运行以便你在下一个实验室中使用。
+
+> **备注**： 停止计算可确保你的订阅不会为计算资源付费。但是，只要订阅中存在 Azure 机器学习工作区，就需要为数据存储支付少量费用。如果已完成对 Azure 机器学习的探索，可以删除 Azure 机器学习工作区和相关资源。但是，如果计划完成本系列中的任何其他实验室，则需要先重复 *[创建 Azure 机器学习工作区](01-create-a-workspace.md)* 练习来创建工作区并准备环境。
